@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Colourful Zooming</title>
+        <meta name="description" content="This banner is stationary! - although you can zoom over each letter... the colours are fun too!">
+	    <meta name="author" content="Tim Holman">
+	    
+	    <!--Styles-->
+	    <link href='css/style-01.css' media='screen' rel='stylesheet' type='text/css'/>
+	    <!--Scripts-->
+	    <script type="text/javascript" src="js/banner.js"></script>
+	    <script type="text/javascript" src="/js/analytics.js"></script>	    
+	    <script>
+			window.onload = function() {
+	
+				var banner = new Banner();
+				banner.initialize('canvas-banner');
+			
+			}	
+		</script>
+		
+		<!-- Place this render call where appropriate -->
+		<script type="text/javascript">
+	  		(function() {
+	    		var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+	    		po.src = 'https://apis.google.com/js/plusone.js';
+	    		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+	  		})();
+		</script>
+		
+	</head>
+	<body>
+		<header>
+			<canvas id="canvas-banner"></canvas>
+		</header>
+		<footer>
+			<div id="sharing">
+				<a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-via="twholman">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+				<g:plusone annotation="inline" width="100px" height="23px"></g:plusone>
+			</div>
+			<a href="../">Interactive Banners</a> - by <a href="http://tholman.com">Tim Holman</a> | Follow me! <a href="http://twitter.com/twholman">@twholman</a><br>
+		</footer>
+	</body>		
+</html>

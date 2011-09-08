@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Interactive Banners</title>
+        <meta name="description" content="Experiments with Html5 - Interactive Banners" >
+	    <meta name="author" content="Tim Holman">
+		<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>  
+		<link href='css/style.css' media='screen' rel='stylesheet' type='text/css'/>
+		<script src="/js/analytics.js" type="text/javascript"></script>
+		<!-- Place this tag where you want the +1 button to render -->
+
+
+		<!-- Place this render call where appropriate -->
+		<script type="text/javascript">
+	  		(function() {
+	    		var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+	    		po.src = 'https://apis.google.com/js/plusone.js';
+	    		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+	  		})();
+		</script>
+	</head>
+	<body>
+		<div id="content">
+			
+			<header>
+				<h1>HTML5 Interactive Banners</h1>
+				<p>Because banners aren't fun enough! -- (Click on each image to see the them in action...)</p>
+        	</header>
+						
+			<!-- Grow and Shrink -->
+			<figure>
+				<a href="./01">
+					<div class="image">
+						<img src="images/01.png" height="180px" alt="Grows and Shrinks">
+					</div>
+				</a>
+				
+  				<figcaption>This banners particles grow and shrink as the user hovers over it!</figcaption>
+			</figure>
+			
+			<!-- Break apart -->
+			<figure>
+				<a href="./02">
+					<div class="image">
+						<img src="images/02.png" height="180px" alt="Breaks Apart">
+					</div>
+				</a>
+  				<figcaption>When you hover over this banner - it breaks into tiny pieces.</figcaption>
+			</figure>
+			
+			<!-- Form and release -->
+			<figure>
+				<a href="./03">
+					<div class="image">
+						<img src="images/03.png" height="180px" alt="Form and Release">
+					</div>
+				</a>
+				
+  				<figcaption>This banner forms when the page is loaded, you can then break away pieces with the mouse. It's also my version of the very inspiring
+  					<a href="http://webtypographyforthelonely.com/cluster"> Web typography for the lonelys: Cluster </a></figcaption>
+			</figure>-
+		</div>
+		<footer>
+			<div id="sharing">
+				<a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-via="twholman">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+				<g:plusone annotation="inline" width="100px" height="23px"></g:plusone>
+			</div>
+			Interactive Banners - by <a href="http://tholman.com">Tim Holman</a> | Follow me! <a href="http://twitter.com/twholman">@twholman</a><br>
+		</footer>
+	</body>
+</html>
