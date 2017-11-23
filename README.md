@@ -1,8 +1,8 @@
 # Interactive Banners
 
-A small html5 experiment using the canvas element to create moveable, interactive banners
+A small HTML5 experiment using the canvas element to create moveable, interactive banners
 
-See it in action: [Here](http://tholman.com/experiments/html5/interactive-banners).
+See it in action [here](http://tholman.com/experiments/html5/interactive-banners).
 
 # License
 
